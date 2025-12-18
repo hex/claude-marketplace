@@ -1,12 +1,18 @@
 {
   "name": "hex-plugins",
-  "description": "Claude Code plugins by hex",
+  "owner": {
+    "name": "hex",
+    "email": "hex@example.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by hex"
+  },
   "plugins": [
     {
       "name": "claude-council",
       "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives on coding problems",
       "source": {
-        "type": "github",
+        "source": "github",
         "repo": "hex/claude-council"
       }
     }
