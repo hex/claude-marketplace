@@ -22,6 +22,7 @@ Then browse and install plugins with:
 |--------|-------------|
 | [claude-council](https://github.com/hex/claude-council) | Consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives |
 | [claude-image-generation](https://github.com/hex/claude-image-generation) | Generate and edit images using Google Gemini and OpenAI GPT Image APIs |
+| [claude-guard](https://github.com/hex/claude-guard) | Safety guardian that prevents destructive commands and blocks credential exposure |
 
 ## License
 
