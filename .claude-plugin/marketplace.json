@@ -57,7 +57,7 @@
       }
     },
     {
-      "name": "release-flow",
+      "name": "claude-release",
       "description": "Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release.",
       "source": {
         "source": "github",
