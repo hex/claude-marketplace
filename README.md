@@ -28,6 +28,33 @@ Then browse and install plugins with:
 | [claude-crawl](https://github.com/hex/claude-crawl) | Web search, fetch, and crawl via Jina AI, Cloudflare Browser Rendering, and Firecrawl |
 | [claude-release](https://github.com/hex/claude-release) | Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release |
 
+## Troubleshooting
+
+### Install fails with `git@github.com: Permission denied (publickey)`
+
+If `/plugin install` fails while cloning, with an SSH error like:
+
+```
+Failed to clone repository: ... git@github.com: Permission denied (publickey).
+```
+
+these plugins are published over HTTPS, so an SSH error means your git is
+rewriting the HTTPS URL to SSH. Check for an `insteadOf` rule:
+
+```
+git config --get-regexp 'url\..*\.insteadof'
+```
+
+If it prints something like `url.git@github.com:.insteadof https://github.com/`,
+either remove it:
+
+```
+git config --global --unset url.git@github.com:.insteadof
+```
+
+or make sure SSH access to GitHub works (`ssh -T git@github.com` succeeds, with
+your key loaded in `ssh-agent`).
+
 ## License
 
 MIT
