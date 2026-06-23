@@ -12,56 +12,56 @@
       "name": "claude-council",
       "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives on coding problems",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-council"
+        "source": "url",
+        "url": "https://github.com/hex/claude-council.git"
       }
     },
     {
       "name": "claude-image-generation",
       "description": "Generate and edit images using Google Gemini and OpenAI GPT Image APIs",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-image-generation"
+        "source": "url",
+        "url": "https://github.com/hex/claude-image-generation.git"
       }
     },
     {
       "name": "claude-guard",
       "description": "Safety guardian that prevents destructive commands, blocks credential exposure, and redirects dangerous operations to safer alternatives",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-guard"
+        "source": "url",
+        "url": "https://github.com/hex/claude-guard.git"
       }
     },
     {
       "name": "claude-tmux",
       "description": "Connect to remote hosts via SSH in tmux panes with saved host management",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-tmux"
+        "source": "url",
+        "url": "https://github.com/hex/claude-tmux.git"
       }
     },
     {
       "name": "claude-taskmaster",
       "description": "Completion guard that prevents premature stopping with TASKMASTER_DONE signal and 6-point completion checklist",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-taskmaster"
+        "source": "url",
+        "url": "https://github.com/hex/claude-taskmaster.git"
       }
     },
     {
       "name": "claude-crawl",
       "description": "Web search, fetch, and crawl via Jina AI, Cloudflare Browser Rendering, and Firecrawl",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-crawl"
+        "source": "url",
+        "url": "https://github.com/hex/claude-crawl.git"
       }
     },
     {
       "name": "claude-release",
       "description": "Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release.",
       "source": {
-        "source": "github",
-        "repo": "hex/claude-release"
+        "source": "url",
+        "url": "https://github.com/hex/claude-release.git"
       }
     }
   ]
