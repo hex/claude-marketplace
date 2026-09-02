@@ -20,8 +20,8 @@ Then browse and install plugins with:
 
 | Plugin | Description |
 |--------|-------------|
-| [claude-council](https://github.com/hex/claude-council) | Consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives |
-| [claude-image-generation](https://github.com/hex/claude-image-generation) | Generate and edit images using Google Gemini and OpenAI GPT Image APIs |
+| [claude-council](https://github.com/hex/claude-council) | Consult ten AI agents (Gemini, OpenAI, Grok, Perplexity, Kimi, OpenRouter, the codex/antigravity/grok/kimi CLIs, local ollama) for diverse perspectives |
+| [claude-image-generation](https://github.com/hex/claude-image-generation) | Generate and edit images using Google Gemini, OpenAI GPT Image, and xAI Grok Image APIs |
 | [claude-guard](https://github.com/hex/claude-guard) | Safety guardian that prevents destructive commands and blocks credential exposure |
 | [claude-tmux](https://github.com/hex/claude-tmux) | Connect to remote hosts via SSH in tmux panes with saved host management |
 | [claude-taskmaster](https://github.com/hex/claude-taskmaster) | Completion guard that prevents premature stopping with TASKMASTER_DONE signal |

@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "claude-council",
-      "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives on coding problems",
+      "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok, Perplexity, Kimi, any model OpenRouter routes to, plus codex, antigravity, grok and kimi CLIs when installed, and a local ollama model) to get diverse perspectives on coding problems",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-council.git"
@@ -18,7 +18,7 @@
     },
     {
       "name": "claude-image-generation",
-      "description": "Generate and edit images using Google Gemini and OpenAI GPT Image APIs",
+      "description": "Generate and edit images using Google Gemini, OpenAI GPT Image, and xAI Grok Image APIs",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-image-generation.git"
@@ -26,7 +26,7 @@
     },
     {
       "name": "claude-guard",
-      "description": "Safety guardian that prevents destructive commands, blocks credential exposure, and redirects dangerous operations to safer alternatives",
+      "description": "Safety guardian that prevents Claude Code from executing dangerous commands, exposing secrets, and performing destructive operations",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-guard.git"
@@ -42,7 +42,7 @@
     },
     {
       "name": "claude-taskmaster",
-      "description": "Completion guard that prevents premature stopping with TASKMASTER_DONE signal and 6-point completion checklist",
+      "description": "Completion guard that prevents Claude from stopping prematurely. A Stop hook holds the turn open until Claude attests, via a TASKMASTER_DONE signal, that every item is done.",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-taskmaster.git"
@@ -58,7 +58,7 @@
     },
     {
       "name": "claude-release",
-      "description": "Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release.",
+      "description": "Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release. Auto-detects most projects; supports per-project release.config.json and lifecycle markdown extensions in .claude/release/.",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-release.git"
