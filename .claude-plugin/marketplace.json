@@ -18,7 +18,7 @@
     },
     {
       "name": "claude-image-generation",
-      "description": "Generate and edit images using Google Gemini, OpenAI GPT Image, and xAI Grok Image APIs",
+      "description": "Generate and edit images using Google Gemini, OpenAI GPT Image, xAI Grok Image, and OpenRouter APIs",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-image-generation.git"
@@ -34,7 +34,7 @@
     },
     {
       "name": "claude-tmux",
-      "description": "Connect to remote hosts via SSH in tmux panes with saved host management",
+      "description": "Connect to remote hosts via SSH in tmux panes with saved host management, and run a repo's test suite on one of them",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-tmux.git"
