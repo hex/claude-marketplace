@@ -27,6 +27,7 @@ Then browse and install plugins with:
 | [claude-taskmaster](https://github.com/hex/claude-taskmaster) | Completion guard that prevents premature stopping with TASKMASTER_DONE signal |
 | [claude-crawl](https://github.com/hex/claude-crawl) | Web search, fetch, and crawl via Jina AI, Cloudflare Browser Rendering, and Firecrawl |
 | [claude-release](https://github.com/hex/claude-release) | Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release |
+| [i-have-adhd](https://github.com/hex/i-have-adhd) | Fork of ayghri/i-have-adhd. Shapes output for a reader with ADHD: next action first, pending offers stated once, one-line replies to automated notices |
 
 ## Troubleshooting
 

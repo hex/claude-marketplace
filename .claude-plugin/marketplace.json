@@ -63,6 +63,14 @@
         "source": "url",
         "url": "https://github.com/hex/claude-release.git"
       }
+    },
+    {
+      "name": "i-have-adhd",
+      "description": "Shape output for a reader with ADHD: lead with the next action, number multi-step work, state pending offers once, give automated notices one line, make wins visible. Fork of ayghri/i-have-adhd.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hex/i-have-adhd.git"
+      }
     }
   ]
 }
