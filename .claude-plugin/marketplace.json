@@ -70,7 +70,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hex/i-have-adhd.git"
-      }
+      },
+      "author": {
+        "name": "Ayoub Ghriss",
+        "url": "https://github.com/ayghri"
+      },
+      "homepage": "https://github.com/ayghri/i-have-adhd"
     }
   ]
 }
