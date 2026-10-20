@@ -76,6 +76,14 @@
         "url": "https://github.com/ayghri"
       },
       "homepage": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "name": "claude-errands",
+      "description": "Hand a written brief to a live Codex session, get woken when its turn ends, and see how it ended.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hex/claude-errands.git"
+      }
     }
   ]
 }
