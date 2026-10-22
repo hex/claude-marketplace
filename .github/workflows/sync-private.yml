@@ -1,0 +1,20 @@
+# Starts the sync in hex/claude-marketplace-private after every push to main, so the claude.ai org
+# plugin sync (which takes private repos only) sees changes within a minute.
+name: Sync the private copy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Start the private repo's sync
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_SYNC_TOKEN }}
+        run: gh workflow run sync.yml -R hex/claude-marketplace-private
