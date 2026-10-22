@@ -17,4 +17,5 @@ jobs:
       - name: Start the private repo's sync
         env:
           GH_TOKEN: ${{ secrets.PRIVATE_SYNC_TOKEN }}
-        run: gh workflow run sync.yml -R hex/claude-marketplace-private
+        # The REST call needs only the token's Actions permission; `gh workflow run` also reads the default branch.
+        run: gh api -X POST repos/hex/claude-marketplace-private/actions/workflows/sync.yml/dispatches -f ref=main
