@@ -27,6 +27,7 @@ Then browse and install plugins with:
 | [claude-crawl](https://github.com/hex/claude-crawl) | Web search, fetch, and crawl via Jina AI, Cloudflare Browser Rendering, and Firecrawl |
 | [claude-release](https://github.com/hex/claude-release) | Project-agnostic /release slash command. Drives version bump, tests, docs review, release-notes draft, approval gate, commit/push, and GitHub release |
 | [claude-errands](https://github.com/hex/claude-errands) | Hand a written brief to a live Codex session, get woken when its turn ends, and see how it ended. |
+| [claude-workhorses](https://github.com/hex/claude-workhorses) | Run long jobs on your spare Macs. `wh` copies the git repository you are in to a workhorse, runs the command there and shows each run above the prompt |
 | [i-have-adhd](https://github.com/hex/i-have-adhd) | By [Ayoub Ghriss](https://github.com/ayghri), forked from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) with local rule changes. Shapes output for a reader with ADHD: next action first, pending offers stated once, one-line replies to automated notices |
 
 ## Troubleshooting
