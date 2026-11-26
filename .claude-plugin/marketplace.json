@@ -78,11 +78,11 @@
       }
     },
     {
-      "name": "claude-workhorses",
+      "name": "workhorses",
       "description": "Runs long jobs on your spare Macs. wh copies the git repository you are in to a workhorse, runs the command there and returns its exit code. Comes with an offload policy Claude reads at session start, a workhorse skill, a badge and a line above the prompt for each run, and the scripts that set the Macs up.",
       "source": {
         "source": "url",
-        "url": "https://github.com/hex/claude-workhorses.git"
+        "url": "https://github.com/hex/workhorses.git"
       }
     }
   ]
