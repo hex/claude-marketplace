@@ -79,7 +79,7 @@
     },
     {
       "name": "workhorses",
-      "description": "Runs long jobs on your spare Macs and Linux machines. wh copies the git repository you are in to a workhorse, runs the command there and returns its exit code. Comes with an offload policy Claude reads at session start, a workhorse skill, a badge and a line above the prompt for each run, and the scripts that set the Macs up.",
+      "description": "Runs long jobs on your spare Macs and Linux machines. wh copies the git repository you are in to a workhorse, runs the command there and returns its exit code. Comes with an offload policy Claude reads at session start, a workhorse skill, a badge and a line above the prompt for each run, and the scripts that set the hosts up.",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/workhorses.git"
